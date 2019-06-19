@@ -43,14 +43,14 @@ Building the project from the command line is also possible.
 Navigate to the project folder and call the `installVRLPlugin` [Gradle](http://www.gradle.org/)
 task to build and install the plugin.
 
-##### Bash (Linux/OS X/Cygwin/other Unix-like OS)
+##### Bash (Linux/macOS/Cygwin/other Unix-like OS)
 
-    cd Path/To/VRL-Linear-Algebra/
+    cd Path/To/Linear-Algebra/
     ./gradlew installVRLPlugin
     
 ##### Windows (CMD)
 
-    cd Path\To\VRL-Linear-Algebra
+    cd Path\To\Linear-Algebra
     gradlew installVRLPlugin
 
 Finally, restart VRL-Studio
