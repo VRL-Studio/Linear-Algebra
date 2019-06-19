@@ -1,6 +1,6 @@
-# VRL-Tutorial-Plugin-01
+# VRL-Linear-Algebra
 
-[![Build Status](https://travis-ci.org/miho/VRL-Tutorial-Plugin-01.png)](https://travis-ci.org/miho/VRL-Tutorial-Plugin-01)
+[![Build Status](https://travis-ci.org/miho/VRL-Linear-Algebra.png)](https://travis-ci.org/miho/VRL-Linear-Algebra)
 
 This project demonstrates how to create a simple [VRL](http://vrl-studio.mihosoft.eu) plugin.
 
@@ -22,7 +22,7 @@ Join the [Developer Group](https://groups.google.com/forum/#!forum/vrl-developer
 If the plugin shall be installed to a custom destination, specify the path in `build.properties`, e.g.,
     
     # vrl property folder location (plugin destination)
-    vrldir=/path/to/.vrl/0.4.3/myvrl
+    vrldir=/path/to/.vrl/0.4.4/myvrl
     
 Otherwise, the plugin will be installed to the default location (depends on VRL version that is specified in the gradle dependencies).
 
@@ -45,12 +45,12 @@ task to build and install the plugin.
 
 ##### Bash (Linux/OS X/Cygwin/other Unix-like OS)
 
-    cd Path/To/VRL-Tutorial-Plugin-01/VRL-Tutorial-Plugin-01
+    cd Path/To/VRL-Linear-Algebra/
     ./gradlew installVRLPlugin
     
 ##### Windows (CMD)
 
-    cd Path\To\VRL-Tutorial-Plugin-01\VRL-Tutorial-Plugin-01
+    cd Path\To\VRL-Linear-Algebra
     gradlew installVRLPlugin
 
 Finally, restart VRL-Studio
