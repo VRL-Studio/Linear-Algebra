@@ -10,6 +10,12 @@ matrix:
       jdk:  openjdk11
     - os: linux
       language: java
+      jdk:  openjdk12  
+   - os: linux
+      language: java
+      jdk:  openjdk13
+    - os: linux
+      language: java
       jdk:  openjdk-ea
     allow_failures:
        - os: linux
