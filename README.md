@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/VRL-Studio/Linear-Algebra.svg?branch=master)](https://travis-ci.org/VRL-Studio/Linear-Algebra)
 
-This project demonstrates how to create a simple [VRL](http://vrl-studio.mihosoft.eu) plugin.
+<!--This project demonstrates how to create a simple [VRL](http://vrl-studio.mihosoft.eu) plugin.-->
 
 Webpage: http://vrl-studio.mihosoft.eu
 
